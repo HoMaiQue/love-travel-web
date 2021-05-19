@@ -323,7 +323,7 @@
 }
 .package-best-view-img { 
    background: linear-gradient(to top, rgba(46, 46, 48, 0.4), transparent),
-    url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/04/destination-9.jpg) ;
+    url(../img/destination-9.jpg) ;
     background-size: cover;
     width: 260px;
     height: 261px;
