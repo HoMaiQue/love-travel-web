@@ -1,0 +1,41 @@
+/* mobile and tablet */
+@media (max-width: 63.9375em) {
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+    .nav {
+        height: 125px;
+        flex-direction: column;
+        justify-content: center;
+        background-color:#555555;
+    }
+    .nav__bar {
+        flex: none;
+        margin-top: 20px;
+    }
+    .header-background {
+        background: url(../img/parallax-2.jpg) bottom / cover no-repeat
+    }
+   
+}
+
+/* tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    .hide-on-tablet {
+        display: none;
+    }
+    .header-background {
+        height: 1277px;
+    }
+   
+}
+
+/* mobile */
+@media (max-width: 46.1875em) {
+    .hide-on-mobile {
+        display: none;
+    }
+    .header-background {
+        height: 1521px;
+    }
+}
