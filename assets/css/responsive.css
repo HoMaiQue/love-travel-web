@@ -16,6 +16,54 @@
     .header-background {
         background: url(../img/parallax-2.jpg) bottom / cover no-repeat
     }
+    .nav__list {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 25px 0 50px 20px;
+    }
+    .nav-item__link {
+        font-size: 2.4rem;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+
+    .nav-item__subnav {
+        display: block;
+        position: unset;
+        background-color: unset;
+        margin-left: 20px;
+    }
+    .nav-item__subnav {
+        box-shadow: none;
+    }
+    .nav-item__subnav-link {
+        color: var(--white-color);
+        border-bottom: none;
+        text-transform: uppercase;
+        margin-bottom: -10px;
+        font-size: 1.4rem;
+        
+    }
+    .subnav-list {
+        display: block;
+    }
+    .package-best {
+        background-color: #555555;
+        flex-direction: column;
+        width: 300px;
+
+    }
+
+    .package-best__close-icon {
+        color: var(--white-color);
+        font-size: 2rem;
+        margin: 10px 10px 0 0;
+        opacity: 0.8;
+    }
+
+    .hide-on-pc {
+        display: block;
+    }
    
 }
 
@@ -27,6 +75,7 @@
     .header-background {
         height: 1277px;
     }
+
    
 }
 
