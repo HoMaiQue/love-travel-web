@@ -44,6 +44,10 @@
         font-size: 1.4rem;
         
     }
+
+    .nav-item__subnav-link:hover {
+        background-color: unset;
+    }
     .subnav-list {
         display: block;
     }
@@ -73,7 +77,32 @@
         display: none;
     }
     .header-background {
-        height: 1277px;
+        height: 1402px;
+    }
+
+    /* search */
+
+    .header-search {
+        margin-top: 115px;
+    }
+    .header-search-input-wrap {
+        width: 100%;
+    }
+
+    .header-search-select {
+        width: 100%;
+    }
+
+
+    .header-search-list {
+        display: block;
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .header-search-list__item {
+        width: 100%;
+        margin-bottom: 30px;
     }
 
    
@@ -87,4 +116,6 @@
     .header-background {
         height: 1521px;
     }
+
+    
 }

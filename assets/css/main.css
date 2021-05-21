@@ -6,7 +6,8 @@
     position: relative;
     background: url(../img/parallax-2.jpg) top -250px left -130px/ auto no-repeat;
     opacity: 0.9;
-    filter: grayscale(50%);
+    filter: grayscale(10%);
+    text-align: center;
 }
 
 .nav {
@@ -406,5 +407,107 @@
     color: #14b9d5;
     background-color: var(--white-color);
 }
+/* search */
+.header-search {
+    height: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-search-heading {
+    font-size: 5.5rem;
+    color: var(--white-color);
+    font-weight: 900;
+    margin: 0;
+    letter-spacing: 1px;
+    padding: 0  35px;
+
+}
+
+.header-search-title-check-promotion {
+    color: var(--white-color);
+    font-size: 2rem;
+    letter-spacing: 4px;
+    font-weight: 400;
+    margin: 30px 0 70px;
+}
+
+.header-search-input-wrap {
+    position: relative;
+ 
+
+}
+.header-search-select {
+    outline: none;
+    height: 44px;
+    width: 372px;
+    font-size: 1.6rem;
+    border-radius: 20px;
+    padding: 0 26px;
+    letter-spacing: 2px;
+    border: 1px solid var(--border-color);
+    font-weight: 400;
+    cursor: pointer;
+    color: var(--text-color);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  
+}
+
+.header-search-select-option {
+   font-size: 1.7rem;
+}
+
+.header-search-input-icon {
+    position: absolute;
+    right: 26px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    color: var(--word-color);
+}
+
+.header-search-list {
+    display: flex;
+    list-style: none;
+    margin-top: 70px;
+}
+
+.header-search-list__item {
+    width: 114px;
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 20px 0;
+    margin-right: 30px;
+
+}
+
+.header-search-list__item-link {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.header-search-list__item-img {
+    width: 40px;
+}
+
+.header-search-list__item-name {
+    color: var(--white-color);
+    font-size: 1rem;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+
+/* underline- color */
+.under-line-color::after {
+   background-color: #ba71da;
+}
+
 
 
