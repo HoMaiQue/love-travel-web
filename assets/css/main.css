@@ -178,6 +178,7 @@
     transform: translateX(100%);
     transition: transform ease 1s;
     overflow: auto;
+    z-index: 2;
 }
 
 .nav__bar {
@@ -321,27 +322,47 @@
     background-image: linear-gradient(to right, #14bcd1, #14d1b5);
     
 }
-
-.package-best-view {
-    margin-left: 35px;
+/* destination */
+.destination {
     position: relative;
 }
-.package-best-view-img { 
+
+.destination-img { 
    background: linear-gradient(to top, rgba(46, 46, 48, 0.4), transparent),
     url(../img/destination-9.jpg) ;
     background-size: cover;
-    width: 260px;
-    height: 261px;
-    margin: 26px 0 18px;
+    height: 370px;
     position: relative;
-  
+    
+}
+.destination-img-thailandia {
+    background-image: url(../img/destination-thailandia.jpg);
 }
 
-.package-best-view-img:hover .package-best-view-cover {
+.destination-img-asia {
+    background-image: url(../img/destination-asia.jpg);
+}
+
+.destination-img-italy {
+    background-image: url(../img/destination-italy.jpg);
+
+}
+
+.destination-img-nertherlands {
+    background-image: url(../img/destination-nertherlands.jpg);
+
+}
+
+.destination-img-unitedstates {
+    background-image: url(../img/destination-unitedstates.jpg);
+
+}
+
+.destination-img:hover .destination-cover {
     display: flex;
 }
 
-.package-best-view-on-img {
+.destination-on-img {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -351,29 +372,29 @@
     
 }
 
-.package-best-view-on-img__heading {
+.destination-on-img__heading {
     font-size: 2.1rem;
     font-weight: 900;
     margin-bottom: 8px;
     letter-spacing: 1px;
 }
 
-.package-best-view-on-img__three-packages {
+.destination-on-img__three-packages {
     font-size: 1.3rem;
     font-weight: 400;
     letter-spacing: 2px;
 }
 
-.package-best-view-logo {
+.destination-logo {
     position: absolute;
     top: 30px;
     left: 30px;
 }
-.package-best-view-logo-icon {
+.destination-logo-icon {
     width: 35px;
 }
 
-.package-best-view-cover {
+.destination-cover {
     width: 100%;
     height: 100%;
     display: flex;
@@ -386,19 +407,19 @@
     position: absolute;
     z-index: 1;
 }
-.package-best-view-cover-heading {
+.destination-cover-heading {
     color: var(--white-color);
     font-size: 2rem;
     font-weight: 900;
     letter-spacing: 1px;
 }
-.package-best-view-cover-list {
+.destination-cover-list {
     list-style: none;
-    padding-left: 0;
+    padding: 12px 0 0;
     text-align: center;
 }
 
-.package-best-view-cover-link {
+.destination-cover-link {
     text-decoration: none;
     color: var(--white-color);
     font-size: 1.4rem;
@@ -408,14 +429,25 @@
     letter-spacing: 1px;
 }
 
-.package-best-view-cover-btn {
+.destination-cover-btn {
     font-size: 1.3rem;
     padding: 7px 20px;
-    margin-top: 15px;
+    margin-top: 12px;
 }
 .btn--color-white {
     color: #14b9d5;
     background-color: var(--white-color);
+}
+
+/* destination on packages */
+.destination-on-packages {
+    margin-left: 35px;
+}
+
+.destination-on-packages-img {
+    width: 260px;
+    height: 260px;
+    margin: 26px 0 18px 0;
 }
 /* search */
 .header-search {
@@ -428,7 +460,7 @@
 }
 
 .header-search-heading {
-    font-size: 5.3rem;
+    font-size: 5rem;
     color: var(--white-color);
     font-weight: 900;
     margin: 0;
@@ -516,8 +548,88 @@
 
 
 /* underline- color */
-.under-line-color::after {
+.under-line-color--violet::after {
    background-color: #ba71da;
+}
+
+.under-line-color--green::after {
+    background-color: #1bbc9b;
+    
+ }
+
+.under-line-color--orange::after {
+    background-color: #f76570;
+ }
+
+
+/* container */
+.wrap {
+    margin: 0 15px 30px;
+
+}
+
+.destination-title {
+    text-align: center;
+}
+
+.destination-title__small-heading {
+    font-size: 1.4rem;
+    color: var(--text-color);
+    font-weight: 400;
+    margin-top: 60px;
+}
+
+.destination-title__big-heading {
+    font-size: 3.6rem;
+    color: #555;
+    font-weight: 900;
+    line-height: 3.6rem;
+    margin: 30px 0 55px 0;
+}
+
+.banner-img {
+    height: 234px;
+    background: url(../img/next-your-holiday.jpg) center / cover no-repeat;
+    display: block;
+    margin: 78px 0;
+}
+
+.banner-img-holiday {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-img-holiday-title {
+    color: var(--white-color);
+    margin-right: 140px;
+    z-index: 1;
+
+}
+
+.banner-img-holiday-heading {
+    margin: 0;
+    letter-spacing: 1px;
+    font-weight: 800;
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+}
+
+.banner-img-holiday-heading-big {
+    font-size: 5rem;
+    line-height: 5rem;
+}
+
+
+.banner-img-holiday-btn {
+    font-size: 1.6rem;
+    color: #f77991;
+    background-color: var(--white-color);
+    padding: 12px 0;
+    width: 242px;
+    letter-spacing: 2px;
+    margin-right: 30px;
 }
 
 
