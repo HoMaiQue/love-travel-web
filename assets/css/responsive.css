@@ -104,8 +104,16 @@
     .header-background {
         height: 1402px;
     }
+    .wide {
+        width: unset;
+    }
+    .option-destination {
+        padding:  0 9px;
+    }
 
-
+    .destination-img {
+        height: 718px;
+    }
 }
 
 /* mobile */
@@ -129,5 +137,15 @@
        letter-spacing: unset;
     }
 
-    
+    .wrap {
+        margin: 0 73px;
+    }
+
+    .destination-title {
+        padding: 0 76px;
+    }
+
+    .destination-img {
+      height: 268px;
+    }
 }
