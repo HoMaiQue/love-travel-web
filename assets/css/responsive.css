@@ -94,6 +94,21 @@
     width: 100%;
     margin-bottom: 30px;
     }
+    .banner-img-holiday {
+      flex-direction: column;
+      align-items: unset;
+      justify-content: unset;
+    }
+    .banner-img-holiday-title {
+        padding: 70px 0 34px 20px;
+    }
+
+    .banner-img-holiday-btn {
+        display: flex; 
+        justify-content: center; 
+        margin: auto; 
+        margin-top: 0;
+    } 
 }
 
 /* tablet */
@@ -114,6 +129,10 @@
     .destination-img {
         height: 718px;
     }
+
+    .banner-img {
+        height: 320px;
+       }
 }
 
 /* mobile */
@@ -147,5 +166,13 @@
 
     .destination-img {
       height: 268px;
+    }
+
+    .banner-img {
+     height: 370px;
+    }
+
+    .banner-img-holiday-title {
+        padding-left: 64px;
     }
 }

@@ -562,7 +562,12 @@
 
 .under-line-color--orange::after {
     background-color: #f76570;
+}
+
+.under-line-color--blue::after {
+    background-color: #14b9d5;
  }
+ 
 
 
 /* container */
@@ -634,6 +639,60 @@
     letter-spacing: 2px;
     margin-right: 30px;
 }
+
+/* the best beach */
+
+
+.the-best-beach-heading-location {
+    font-size: 1.4rem;
+    color: var(--text-color);
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.the-best-beach-heading {
+    font-size: 3.6rem;
+    font-weight: 900;
+    opacity: 0.8;
+    letter-spacing: 1px;
+    margin: 15px 0 25px;
+}
+
+.the-best-beach-introduce {
+    font-size: 1.5rem;
+    line-height: 2.8rem;
+    letter-spacing: 2px;
+    color: var(--word-color);
+}
+
+.the-best-beach-price {
+    font-size: 3rem;
+    color: #595555;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin: 32px 0;
+}
+
+.the-best-beach-price-first {
+    text-decoration: line-through;
+    color: var(--icon-color);
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.the-best-beach-price-person {
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+   
+}
+
+.the-best-beach-btn {
+    background: #1bbc9b;
+    padding: 13px 36px;
+    letter-spacing: 2px;
+}
+
 
 
 
