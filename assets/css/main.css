@@ -184,7 +184,6 @@
 .nav__bar {
    flex: 1;
    text-align: end;
-   
 }
 
 .nav-input {
@@ -692,6 +691,127 @@
     padding: 13px 36px;
     letter-spacing: 2px;
 }
+
+/* slide */
+.beach-slide-wrap {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.beach-menu {
+  position: absolute;
+  left: 0;
+  z-index: 200;
+  width: 100%;
+  top : 20px;
+}
+
+.beach-label {
+  cursor: pointer;
+  display: inline-block;
+  width: 60px;
+  height: 3px;
+  background-color: var(--icon-color);
+  border-radius: 50px;
+  margin: 0 10px;
+}
+
+.beach-label:hover{
+    background-color: var(--white-color);
+}
+
+.beach-slide {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 10;
+  padding: 8em 1em 0;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity linear 0.65s;
+}
+
+.beach-slide-input {
+    display: none;
+}
+
+[id^="beach"]:checked + .beach-slide {
+    opacity: 1;
+  }
+
+.beach-slide1-img {
+    background-image: url(../img/slide1.jpg);
+} 
+
+.beach-slide2-img {
+    background-image: url(../img/slide2.jpg);
+} 
+
+.beach-slide3-img {
+    background-image: url(../img/slide3.jpg);
+} 
+
+/* time beach */
+
+.beach-time {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateY(-50%)  translateX(-50%);
+    z-index: 100;
+    background-color: #14b9d5;
+
+}
+
+.beach-time-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    color: var(--white-color);
+
+}
+
+.beach-time-item {
+    padding: 26px 27px 30px;
+    position: relative;
+}
+
+.beach-time-item::after {
+    display: block;
+    content: "/";
+    font-size: 55px;
+    color: var(--black-color);
+    opacity: 0.05;
+    position: absolute;
+    top: 50%;
+    right: -12px;
+    transform: translateY(-50%) ;
+    
+
+}
+.beach-time-item:last-child::after {
+    display: none;
+}
+
+.beach-time-part {
+    font-size: 3.4rem;
+    font-weight: 400;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.beach-time-part-name {
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin: 6px 0 0;
+    letter-spacing: 2px;
+}
+
 
 
 
