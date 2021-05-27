@@ -692,6 +692,7 @@
     letter-spacing: 2px;
 }
 
+
 /* slide */
 .beach-slide-wrap {
   height: 100%;
@@ -728,7 +729,6 @@
   position: absolute;
   top: 0;
   z-index: 10;
-  padding: 8em 1em 0;
   background-size: cover;
   background-position: center;
   opacity: 0;
@@ -810,6 +810,45 @@
     font-weight: 400;
     margin: 6px 0 0;
     letter-spacing: 2px;
+}
+/* tour */
+.tour {
+    margin-top: 115px;
+}
+
+.tour-item {
+    display: flex;
+}
+
+.tour-item-img {
+    width: 50px;
+    height: 50px;
+}
+
+.tour-item-detail {
+
+}
+
+.tour-item-detail__heading {
+
+}
+
+.tour-item-detail__introduce {
+
+}
+
+.tour-item-detail-link {
+
+}
+
+/* discover */
+.discover {
+    height: 264px;
+}
+
+.discover-img {
+    height: 100%;
+    /* background: url(../img/discover-city.jpg) center / cover no-repeat; */
 }
 
 

@@ -151,12 +151,18 @@
         margin-left: -8px;
         margin-right: -8px;
     }
-
+    .row.sm-gutter {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
     .col {
         padding-left: 8px;
         padding-right: 8px;
     }
-
+    .row.sm-gutter .col {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
     .m-0 {
         display: none;
     }
