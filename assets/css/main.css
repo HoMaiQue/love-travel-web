@@ -584,6 +584,7 @@
     color: var(--text-color);
     font-weight: 400;
     margin-top: 60px;
+    letter-spacing: 2px;
 }
 
 .destination-title__big-heading {
@@ -814,10 +815,12 @@
 /* tour */
 .tour {
     margin-top: 115px;
+    display: flex;
 }
 
 .tour-item {
     display: flex;
+   
 }
 
 .tour-item-img {
@@ -826,29 +829,231 @@
 }
 
 .tour-item-detail {
-
+    margin-left: 20px;
 }
 
 .tour-item-detail__heading {
-
+    font-size: 2.4rem;
+    font-weight: 900;
+    opacity: 0.8;
+    margin: 0;
+    letter-spacing: 2px;
 }
 
 .tour-item-detail__introduce {
-
+    margin: 20px 0;
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    line-height: 2.5rem;
+    color: var(--word-color);
 }
 
 .tour-item-detail-link {
-
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: #65d4ec;
+    letter-spacing: 2px;
 }
 
 /* discover */
 .discover {
-    height: 264px;
+    margin-top: 84px;
+    display: flex;
+    width: 100%;
 }
 
-.discover-img {
+.discover-img-citys {
+    padding: 58px 0;
+    background: url(../img/discover-city.jpg) center / cover no-repeat;
+}
+.discover-img-nature {
     height: 100%;
-    /* background: url(../img/discover-city.jpg) center / cover no-repeat; */
+    background: url(../img/discover-nature.jpg) center / cover no-repeat;
+    padding: 58px 0;
+}
+
+.discover-detail {
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+    
+}
+
+.discover-detail__subheading {
+    font-size: 1.4rem;
+    color: var(--white-color);
+    margin: 0;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.discover-detail__heading {
+    font-size: 3.6rem;
+    color: var(--white-color);
+    font-weight: 900;
+    margin: 15px 0 30px;
+    letter-spacing: 2px;
+  
+
+}
+
+.discover-detail__btn {
+    background-color: var(--white-color);
+    padding: 15px 3px;
+}
+
+.discover-detail__btn--color-orange {
+    color: #f4ad97;
+
+}
+
+.discover-detail__btn--color-green {
+    color: #31c3ae;
+
+}
+
+/* promotion */
+
+
+.promotion-package {
+    border: 1px solid var(--border-color);
+    padding-bottom: 30px;
+}
+
+.promotion-package-img-wrap {
+    position: relative;
+    
+}
+
+.promotion-package-img {
+    width: 100%;
+}
+
+.promotion-package-logo {
+   position: absolute;
+   padding: 13px 12px;
+   border-radius: 80px;
+   top: calc(100% - 2px);
+   right: 20px;
+   transform: translateY(-50%);
+}
+
+.promotion-package-logo-icon {
+    width: 26px;
+    display: block;
+    line-height: 100%;
+
+}
+.promotion-package-detail {
+    margin: 0 30px;
+}
+
+.promotion-package-place {
+    padding-bottom: 20px;
+}
+
+.promotion-package-link {
+    text-decoration: none;
+}
+
+.promotion-package-place__heading {
+    margin: 32px 0 8px;
+    color: var(--black-color);
+    opacity: 0.7;
+    font-size: 2rem;
+    font-weight: 900;
+
+}
+
+
+.promotion-package-place__location-icon {
+    color: var(--icon-color);
+    font-size: 1.4rem;
+    letter-spacing: 3px;
+}
+
+.promotion-package-place__location {
+    display: inline-block;
+    color: var(--word-color);
+    font-weight: 400;
+    font-size: 1.4rem;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.promotion-package-visit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0 13px;
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    flex-wrap: wrap;
+}
+
+
+.promotion-package-visit-option {
+    font-size: 1.3rem;
+    color: #555;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin: 0 0 5px;
+
+}
+
+.promotion-package-visit-option-plus {
+    color: var(--white-color);
+    padding: 1px 6px;
+    font-size: 1rem;
+    border-radius: 20px;
+    margin-left: 5px;
+}
+
+.promotion-package-visit-price {
+    font-size: 2.5rem;
+    margin: 0;
+    color: #555;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.promotion-package-visit-price-first {
+    font-size: 2rem;
+    text-decoration: line-through;
+    color: var(--text-color);
+}
+.promotion-package-introduce-general {
+    font-size: 1.4rem;
+    color: var(--text-color);
+    letter-spacing: 2px;
+    line-height: 2.8rem;
+    margin: 20px 0;
+}
+
+.promotion-package-introduce-btn {
+    padding: 10px 0;
+    width: 100px;
+}
+
+.promotion-package-introduce-color--yellow {
+    background-color: #ffd205;
+}
+
+.promotion-package-introduce-color--pink {
+    background-color: #f76570;
+}
+
+.promotion-package-introduce-color--violet {
+    background-color: #ba71da;
+}
+
+/* footer */
+
+.footer-background {
+    margin-top: 76px;
+    height: 627px;
+    background: url(../img/traval-with-us.jpg) center / cover no-repeat;
 }
 
 

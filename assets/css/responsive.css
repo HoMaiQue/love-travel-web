@@ -115,6 +115,22 @@
         margin-top: 40px;
        
     }
+    /* tour */
+    .tour {
+        display: block;
+    }
+    .tour-item {
+        margin-top: 35px;
+    }
+    /* discover */
+    .discover {
+        display: block;
+        
+    }
+   /* promotion */
+   .promotion-package {
+        margin-bottom: 30px;
+   }
 }
 
 /* tablet */
@@ -201,5 +217,8 @@
 
     .beach-time-item::after {
         display: none;
+    }
+    .tour {
+        margin-top: 483px;
     }
 }
