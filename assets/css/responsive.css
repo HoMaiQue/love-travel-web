@@ -131,6 +131,23 @@
    .promotion-package {
         margin-bottom: 30px;
    }
+
+   /* footer */
+   .footer-search {
+       display: block;
+   }
+   .footer-find {
+       margin: 65px 0 0;
+   }
+   .footer-detail-copyright {
+       display: block;
+       text-align: center;
+       margin: 0 15px;
+   }
+   .footer-detail-copyright-name {
+       padding:  20px 0;
+   }
+   
 }
 
 /* tablet */
@@ -160,7 +177,24 @@
         height: 500px;
        
     }
-   
+   /* footer */
+   .footer-search {
+    display: block;
+    padding-left: 15px;
+    }   
+  
+    .footer-find__input {
+    width: 500px;
+    }
+    .footer-find-btn {
+    width: 172px;
+    }
+    .footer-detail {
+        margin: 0 15px;
+    }
+    .footer-detail-copyright {
+        margin: 0 15px;
+    }
 }
 
 /* mobile */
@@ -185,7 +219,7 @@
     }
 
     .wrap {
-        margin: 0 73px;
+        margin: 0 64px;
     }
 
     .destination-title {
@@ -220,5 +254,17 @@
     }
     .tour {
         margin-top: 483px;
+    }
+
+    /* footer */
+    .footer-find__input {
+        width: 100%;
+    } 
+    .footer-find-btn {
+        width: 100%;
+        margin-left: 0;
+    }
+    .footer-detail-copyright {        
+        margin: 0 ;
     }
 }
